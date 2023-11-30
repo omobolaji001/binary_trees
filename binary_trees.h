@@ -35,7 +35,8 @@ typedef struct binary_tree_s heap_t;
 /* Visualizes the binary tree */
 void binary_tree_print(const binary_tree_t *);
 
-/* Compulsory tasks */
+int pow_recursion(int x, int y);
+
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
